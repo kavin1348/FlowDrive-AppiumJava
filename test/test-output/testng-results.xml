@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="259851" started-at="2017-11-17T08:41:04Z" finished-at="2017-11-17T08:45:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="259851" started-at="2017-11-17T08:41:04Z" finished-at="2017-11-17T08:45:24Z">
+      <class name="src_FlowDrive.FlowDrive">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:src_FlowDrive.FlowDrive@9629756]" name="setUp" is-config="true" duration-ms="6357" started-at="2017-11-17T16:41:04Z" finished-at="2017-11-17T16:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AgreeTermsAndConditions()[pri:0, instance:src_FlowDrive.FlowDrive@9629756]" name="AgreeTermsAndConditions" duration-ms="4111" started-at="2017-11-17T16:41:11Z" finished-at="2017-11-17T16:41:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgreeTermsAndConditions -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:src_FlowDrive.FlowDrive@9629756]" name="testLogin" duration-ms="17708" started-at="2017-11-17T16:41:15Z" finished-at="2017-11-17T16:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testTabNavigation()[pri:2, instance:src_FlowDrive.FlowDrive@9629756]" name="testTabNavigation" duration-ms="9429" started-at="2017-11-17T16:41:32Z" finished-at="2017-11-17T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTabNavigation -->
+        <test-method status="PASS" signature="testTabNavigation2()[pri:3, instance:src_FlowDrive.FlowDrive@9629756]" name="testTabNavigation2" duration-ms="13893" started-at="2017-11-17T16:41:42Z" finished-at="2017-11-17T16:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTabNavigation2 -->
+        <test-method status="PASS" signature="recordJourney()[pri:4, instance:src_FlowDrive.FlowDrive@9629756]" name="recordJourney" duration-ms="45738" started-at="2017-11-17T16:41:56Z" finished-at="2017-11-17T16:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordJourney -->
+        <test-method status="PASS" signature="emergencyHelpOptions()[pri:5, instance:src_FlowDrive.FlowDrive@9629756]" name="emergencyHelpOptions" duration-ms="13839" started-at="2017-11-17T16:42:42Z" finished-at="2017-11-17T16:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emergencyHelpOptions -->
+        <test-method status="PASS" signature="viewSavedjourneydetails()[pri:6, instance:src_FlowDrive.FlowDrive@9629756]" name="viewSavedjourneydetails" duration-ms="11432" started-at="2017-11-17T16:42:55Z" finished-at="2017-11-17T16:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewSavedjourneydetails -->
+        <test-method status="PASS" signature="modifySavedjourneydetails()[pri:7, instance:src_FlowDrive.FlowDrive@9629756]" name="modifySavedjourneydetails" duration-ms="19464" started-at="2017-11-17T16:43:07Z" finished-at="2017-11-17T16:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifySavedjourneydetails -->
+        <test-method status="PASS" signature="Mapview()[pri:8, instance:src_FlowDrive.FlowDrive@9629756]" name="Mapview" duration-ms="12640" started-at="2017-11-17T16:43:26Z" finished-at="2017-11-17T16:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mapview -->
+        <test-method status="PASS" signature="OverallScoreDetails()[pri:9, instance:src_FlowDrive.FlowDrive@9629756]" name="OverallScoreDetails" duration-ms="10991" started-at="2017-11-17T16:43:39Z" finished-at="2017-11-17T16:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverallScoreDetails -->
+        <test-method status="PASS" signature="IndividualScoreDetails()[pri:10, instance:src_FlowDrive.FlowDrive@9629756]" name="IndividualScoreDetails" duration-ms="13970" started-at="2017-11-17T16:43:50Z" finished-at="2017-11-17T16:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndividualScoreDetails -->
+        <test-method status="PASS" signature="MySocialProfile()[pri:11, instance:src_FlowDrive.FlowDrive@9629756]" name="MySocialProfile" duration-ms="34054" started-at="2017-11-17T16:44:04Z" finished-at="2017-11-17T16:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySocialProfile -->
+        <test-method status="PASS" signature="changePreferences()[pri:12, instance:src_FlowDrive.FlowDrive@9629756]" name="changePreferences" duration-ms="12069" started-at="2017-11-17T16:44:38Z" finished-at="2017-11-17T16:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePreferences -->
+        <test-method status="PASS" signature="searchHelp()[pri:13, instance:src_FlowDrive.FlowDrive@9629756]" name="searchHelp" duration-ms="23260" started-at="2017-11-17T16:44:50Z" finished-at="2017-11-17T16:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHelp -->
+        <test-method status="PASS" signature="appVersionInAboutPage()[pri:14, instance:src_FlowDrive.FlowDrive@9629756]" name="appVersionInAboutPage" duration-ms="10083" started-at="2017-11-17T16:45:13Z" finished-at="2017-11-17T16:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appVersionInAboutPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:src_FlowDrive.FlowDrive@9629756]" name="teardown" is-config="true" duration-ms="764" started-at="2017-11-17T16:45:23Z" finished-at="2017-11-17T16:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- src_FlowDrive.FlowDrive -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
