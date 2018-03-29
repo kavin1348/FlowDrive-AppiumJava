@@ -18,13 +18,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.html5.Location;
 import org.testng.annotations.*;
 
-import com.thoughtworks.selenium.Wait;
-import com.thoughtworks.selenium.webdriven.commands.WaitForCondition;
-import com.thoughtworks.selenium.webdriven.commands.WaitForPageToLoad;
+//import com.thoughtworks.selenium.Wait;
+//import com.thoughtworks.selenium.webdriven.commands.WaitForCondition;
+//import com.thoughtworks.selenium.webdriven.commands.WaitForPageToLoad;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
-
+import pageObjects.LoginPage;
 public class FlowDrive 
 {
 	WebDriver driver;
@@ -65,8 +65,9 @@ public void AgreeTermsAndConditions() throws Exception{
 public void testLogin() throws Exception{
 	if	(driver.findElements( By.name("Please log in") ).size() != 0)     // proceed with the login only if the log in option is available
 	{
-		WebElement username=driver.findElement(By.id("edit_text_email"));
-		username.sendKeys("kavin1348@gmail.com");
+		//WebElement username=driver.findElement(By.id("edit_text_email"));
+		//username.sendKeys("kavin1349@gmail.com");
+		LoginPage.username(driver).sendKeys("kavin1347@gmail.com");
 	
 		WebElement password=driver.findElement(By.id("edit_text_password"));
 		password.sendKeys("kavin123");
